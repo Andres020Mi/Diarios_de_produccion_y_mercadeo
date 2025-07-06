@@ -1,0 +1,54 @@
+Este proyecto esta dirigido hacia la entidad SENA EMPRESA la cual se encuentra en el centro agroindustrial sena la angostura
+
+En el Sena agroindustrial se manejan produccion de centro, esta produccion se vende, pero igualmente tambien tiene sus gastos,
+por eso este proyecto se esta creando en base a las necesidades que necesitan solucionar.
+
+El proyecto Diarios_de_trasabilidad_y_mercadeo se enecargara de manejar los siguentes aspectos
+
+    -> Estandarizar los productos : los productos son todos aquellos que son producidos en el centro como lo pueden ser las piñas, los huevos, la leche etc.. ,
+    al tener estos elementos estandarizados evitamos perdida de iformacion y malos entendiso entre que productos se estan vendiendo.
+
+    -> Estandarizar los insumos : los insumos son aquellos elementos consumibles que se usan a la hora de cultivar o criar animales, para crear produccion.
+    
+    -> manejo de mano de obra : la mano de obra son el uso de trabajadores para cultivar o cuidar animales etc.. , con el fin de generar produccion de centro.
+
+    -> manejo de areas de produccion : las areas de produccion son las entidades encargadas de agrupar muchas unidades de produccion.
+
+    -> manejo de unidades de produccion : las unidades de produccion son aquellas entidades de las cuales salen la produccion de centro estas pertenecen a alguna area de produccion.
+
+    -> manejo de diarios de produccion : los diarios de produccion son reportes semanales, los cuales se hacen con el fin de mostrar la mano de obra que se utilizo, 
+    los inusmos consumidos en esa semana y los productos producidos esa semana.
+
+    -> manejo de verciones distintas de diarios de produccion: semaneja un vercionamiento de el diario de produccion con el fin de evitar perdida de informacion,  ya que es 
+    normal que cometan errores asi que tengan que devolver a verciones anteriores.
+
+    -> lideres de unidades de produccion : se necesita poder tomar a un usuario y asignarle el rol de lider de unidad, esto le permitira asignarle una unidad de produccion para que genere diarios de produccion.
+
+    -> gestores de areas de produccion : se necesita poder tomar a un usuario y asignarle el rol de gesto de areas de produccion para que pueda resivir los diarios de produccion de las unidades relacionadas a su area de produccion
+    con el fin de poder revisar estos diarios de produccion, devolverlos o pasarlos al gerente.
+
+    -> sistema para envios de diarios de produccion revisados: los diarios de produccion tiene que pasar por una linea de reviciones antes de llegar al gestor contable y quedar publicados,
+    por lo que se necesita que se puedan solicitar las reviciones de los diarios de produccion con el fin de evitar errores de informacion a la hora de publicar esta informacion,
+    el proceso es el siguente (lides de unidades de produccion ---> gestor de area de produccion a la cual pertenece la unidad de produccion --> gerente --> gestor contable )
+
+    -> inventario de mercadeo : esto se usa para comprar si hay alguna diferencia entre la cantidad de productos producdiso y los que llegaron a punto de venta.
+
+    -> manejo de reportes de mercadeo: esto con el fin de poder vizualisar cuantos productos lograron vender.
+
+    -> manejo de verciones tanto por parte de mano de obra, insumos y produccion
+
+
+
+
+-> sitema de costo
+    una vista donde muestre el resumen de manera semanal por cada una de las areas de produccion -> estas usan los diaios de produccion creados por las unidades para poder sumarlos,
+    los gastos tomados son mano de obra y insumos consumidos
+
+
+
+
+-> manipulacion de exel para ingresar registros de manera masiva
+
+
+
+   

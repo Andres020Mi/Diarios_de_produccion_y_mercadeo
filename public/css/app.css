@@ -1,0 +1,173 @@
+
+    /* ========== 🎨 BOTÓN PRIMARIO ========== */
+    html[data-theme='light'] .btn-primary {
+           background-color: #3b82f6; /* Azul suave */
+        color: #ffffff;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-primary:hover {
+        background-color: #2563eb; /* Azul más profundo */
+    }
+
+    html[data-theme='dark'] .btn-primary {
+        background-color: #fd9393; /* Azul claro apagado */
+        color: #1e3a8a;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-primary:hover {
+        background-color: #60a5fa;
+    }
+
+    /* ========== 🎨 BOTÓN SECUNDARIO ========== */
+    html[data-theme='light'] .btn-secondary {
+        background-color: #818cf8; /* Índigo tenue */
+        color: #ffffff;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-secondary:hover {
+        background-color: #6366f1; /* Índigo un poco más intenso */
+    }
+
+    html[data-theme='dark'] .btn-secondary {
+        background-color: #c7d2fe; /* Lavanda pálido */
+        color: #312e81;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-secondary:hover {
+        background-color: #a5b4fc;
+    }
+
+    /* ========== 🎨 BOTÓN ACENTO ========== */
+    html[data-theme='light'] .btn-accent {
+        background-color: #f9a8d4; /* Rosa pastel */
+        color: #1f2937;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-accent:hover {
+        background-color: #f472b6;
+    }
+
+    html[data-theme='dark'] .btn-accent {
+        background-color: #f472b6; /* Rosa más fuerte */
+        color: #1f2937;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-accent:hover {
+        background-color: #ec4899;
+    }
+
+    /* ========== 🎨 BOTÓN NEUTRAL ========== */
+    html[data-theme='light'] .btn-neutral {
+        background-color: #e5e7eb; /* Gris claro */
+        color: #374151;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-neutral:hover {
+        background-color: #d1d5db;
+    }
+
+    html[data-theme='dark'] .btn-neutral {
+        background-color: #374151; /* Gris oscuro */
+        color: #f9fafb;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-neutral:hover {
+        background-color: #1f2937;
+    }
+
+    /* ========== ℹ️ BOTÓN INFO ========== */
+    html[data-theme='light'] .btn-info {
+        background-color: #38bdf8; /* Azul cielo */
+        color: #ffffff;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-info:hover {
+        background-color: #0ea5e9;
+    }
+
+    html[data-theme='dark'] .btn-info {
+        background-color: #7dd3fc; /* Azul cielo claro */
+        color: #0c4a6e;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-info:hover {
+        background-color: #38bdf8;
+    }
+
+    /* ========== ⚠️ BOTÓN WARNING ========== */
+    html[data-theme='light'] .btn-warning {
+        background-color: #facc15; /* Amarillo cálido */
+        color: #1f2937;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-warning:hover {
+        background-color: #eab308;
+    }
+
+    html[data-theme='dark'] .btn-warning {
+        background-color: #fde68a; /* Amarillo pastel */
+        color: #78350f;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-warning:hover {
+        background-color: #facc15;
+    }
+
+    /* ========== ❌ BOTÓN ERROR ========== */
+    html[data-theme='light'] .btn-error {
+        background-color: #f87171; /* Rojo suave */
+        color: #ffffff;
+        border: none;
+    }
+
+    html[data-theme='light'] .btn-error:hover {
+        background-color: #ef4444;
+    }
+
+    html[data-theme='dark'] .btn-error {
+        background-color: #fecaca; /* Rojo claro */
+        color: #7f1d1d;
+        border: none;
+    }
+
+    html[data-theme='dark'] .btn-error:hover {
+        background-color: #f87171;
+    }
+
+    /* ========== ✅ ALERT SUCCESS ========== */
+    html[data-theme='light'] .alert-success {
+        background-color: #cdffb2; /* Verde claro */
+        color: #065f46;
+        border: 1px solid #10b981;
+    }
+
+    html[data-theme='dark'] .alert-success {
+        background-color: #065f46; /* Verde oscuro */
+        color: #d1fae5;
+        border: 1px solid #10b981;
+    }
+
+    /* ========== ❌ ALERT ERROR ========== */
+    html[data-theme='light'] .alert-error {
+        background-color: #fee2e2; /* Rojo claro */
+        color: #991b1b;
+        border: 1px solid #ef4444;
+    }
+
+    html[data-theme='dark'] .alert-error {
+        background-color: #991b1b; /* Rojo oscuro */
+        color: #fee2e2;
+        border: 1px solid #ef4444;
+    }

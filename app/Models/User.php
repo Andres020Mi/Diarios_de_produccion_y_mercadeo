@@ -22,6 +22,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        "cedula",
+        "rol",
     ];
 
     /**
@@ -57,4 +59,6 @@ class User extends Authenticatable
             ->map(fn (string $name) => Str::of($name)->substr(0, 1))
             ->implode('');
     }
+
+     
 }

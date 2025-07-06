@@ -64,3 +64,15 @@ select:focus[data-flux-control] {
 /* \[:where(&)\]:size-4 {
     @apply size-4;
 } */
+
+/* Tema claro */
+html[data-theme="light"] {
+  --p: #0ea5e9;   /* azul claro */
+  --pf: #ffffff;  /* texto blanco en botones */
+}
+
+/* Tema oscuro */
+html[data-theme="dark"] {
+  --p: #f8f5ff;   /* púrpura */
+  --pf: #ffffff;
+}
